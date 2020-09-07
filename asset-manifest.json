@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/uniquekids/static/css/main.1c75bc72.chunk.css",
+    "main.js": "/uniquekids/static/js/main.b9fd3cb8.chunk.js",
+    "main.js.map": "/uniquekids/static/js/main.b9fd3cb8.chunk.js.map",
+    "runtime-main.js": "/uniquekids/static/js/runtime-main.95f4c2cd.js",
+    "runtime-main.js.map": "/uniquekids/static/js/runtime-main.95f4c2cd.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/uniquekids/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.7887b4ba.chunk.js": "/uniquekids/static/js/2.7887b4ba.chunk.js",
+    "static/js/2.7887b4ba.chunk.js.map": "/uniquekids/static/js/2.7887b4ba.chunk.js.map",
+    "index.html": "/uniquekids/index.html",
+    "precache-manifest.347af88159db6f3d1c0e824f7f6cef99.js": "/uniquekids/precache-manifest.347af88159db6f3d1c0e824f7f6cef99.js",
+    "service-worker.js": "/uniquekids/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/uniquekids/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.1c75bc72.chunk.css.map": "/uniquekids/static/css/main.1c75bc72.chunk.css.map",
+    "static/js/2.7887b4ba.chunk.js.LICENSE.txt": "/uniquekids/static/js/2.7887b4ba.chunk.js.LICENSE.txt",
+    "static/media/banner.jpg": "/uniquekids/static/media/banner.600be4fa.jpg",
+    "static/media/banner1.jpg": "/uniquekids/static/media/banner1.46cff4d4.jpg",
+    "static/media/banner2.jpg": "/uniquekids/static/media/banner2.afd2bf90.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95f4c2cd.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.7887b4ba.chunk.js",
+    "static/css/main.1c75bc72.chunk.css",
+    "static/js/main.b9fd3cb8.chunk.js"
+  ]
+}
