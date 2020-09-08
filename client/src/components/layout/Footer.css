@@ -1,0 +1,11 @@
+.footer{
+    background-color: #333333;
+    color: #ffffff;
+    padding: 40px;
+    height: auto;
+    
+     
+}
+.footer__list{
+    list-style: none;
+}

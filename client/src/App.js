@@ -1,16 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Header from './components/layout/Header'
-import Home from './components/pages/Home'
-import Login from './components/auth/Login';
-import Register from "./components/auth/Register";
+import Navbar from './components/layout/Navbar'
 import UserContext from './context/UserContext'
 import axios from 'axios'
-import './style.css'
 
-import About from './components/pages/About'
+import './App.css'
+import "bootstrap/dist/css/bootstrap.css"
 
-import Footer from './components/layout/Footer'
+import Home from "./components/pages/Home/Home.jsx"
+import Login from "./components/auth/Login.jsx"
+import Register from "./components/auth/Register.jsx"
+import About from './components/pages/About/About.jsx'
+import Footer from './components/layout/Footer.jsx'
+
 
 function App() {
   const [userData, setUserData] = useState({
@@ -49,20 +51,21 @@ function App() {
   }, [])
   
   return (
-    <div>
+    <div className="page-sections">
       <Router>
         {/* context creates states that are shared throughout the components */}
         <UserContext.Provider value={{ userData, setUserData }}>
-          <Header />
+          <Navbar />
           <div className="container">
             <Switch>
-              <Route exact path="/" component={Home} />
               <Route path="/login" component={Login} />
-              <Route path="/register" component={Register}/>
-              <Route path = "/about" component = {About}/>
+              <Route path="/register" component={Register} />
+              <Route path="/about" component={About} />
+              <Route exact path="/" component={Home} />
             </Switch>
           </div>
-          <Footer/>
+          <Home />
+          <Footer />
         </UserContext.Provider>
       </Router>
     </div>
